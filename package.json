@@ -4,7 +4,7 @@
   "scripts": {
     "start": "nest start",
     "start:dev": "nest start --watch",
-    "build": "nest build",
+    "build": "npx nest build",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "seed": "ts-node src/database/seed.ts"
@@ -33,7 +33,7 @@
     "socket.io": "^4.7.2"
   },
   "devDependencies": {
-    "@nestjs/cli": "^10.0.0",
+    "@nestjs/cli": "^10.4.9",
     "@types/bcrypt": "^6.0.0",
     "@types/node": "^20.0.0",
     "@types/passport-google-oauth20": "^2.0.17",
